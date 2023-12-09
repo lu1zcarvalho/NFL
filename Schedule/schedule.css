@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: rgb(230, 227, 227);
+}
+
+header {
+    background-color: #013369;
+    height: 60px;
+    width: 100%;
+}
+
+.header-contents {
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30px;
+    margin-top: 5px;
+}
+
+.header-contents a {
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.filtro-select {
+    padding-top: 20px;
+}
+
+.filtro-select select {
+    width: 100px;
+    height: 35px;
+}
+
+.filter-section {
+    background-color: white;
+    padding: 20px;
+}
+
+.filter-section h3{
+    color: gray;
+    font-size: 13px;
+}
+
+.horario {
+    color: gray;
+    font-size: 11px;
+}
+
+.schedule-title {
+    padding-top: 30px;
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+
+
+.horario {
+    font-size: 13px;
+}
+
+.team-match {
+    width: 600px;
+    padding-left: 250px;
+    font-size: 13px;
+}
+
+.nfl-c-matchup-strip__game-info {
+    background-color: white;
+    border-radius: 4px;
+    width: 300vh;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.container, .match-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.match-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.team-match h2 {
+    font-size: 16px;
+}
+
+.teams-section {
+    background-color: #222222;
+    color: white;
+    margin-top: 100px;
+}
+
+.teams-title {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    height: 40px;
+    align-items: center;
+}
+
+.team-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 10px;
+    height: 370px;
+}
+
+.team-cards li {
+    list-style-type: none;
+}
+
+.img-teams {
+    height: 33px;
+    width: 44px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.team-cards h3 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #013369;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.footer-content{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo{
+    display: block;
+    margin-top:10px;
+    width: 40px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 30px;
+    justify-content: space-between;
+    font-size: 11px;
+    text-decoration: none;
+    width: 120px;
+    height: 100px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 30px;
+}

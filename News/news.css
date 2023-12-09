@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    background-color: rgb(230, 227, 227);
+}
+
+header {
+    background-color: #013369;
+    height: 60px;
+    width: 100%;
+}
+
+.header-contents {
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    width: 30px;
+    margin-top: 5px;
+}
+
+.header-contents a {
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+.news-txt, .news-txt2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:3px;
+    margin: 10px  10px;
+}
+
+.news-1, .news-2, .news-3, .news-4, .news-5, .news-6 {
+    width: 400px;
+    height: 370px;
+    cursor: pointer;
+    background-color: white;
+    margin: 12px;
+}
+
+.title{
+    margin-top: 30px;
+    margin-left: 20px; 
+    border-bottom: 1px solid #ccc;
+    min-height: 34px;
+}
+
+.title h2{
+    border-bottom: 2px solid #161616;
+    display: inline-block;
+    height: inherit;
+    padding-bottom: 3px;
+}
+
+.news-section, .news-section2{
+    margin-top: 10px;
+}
+
+.news-txt p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.news-txt2 h5{
+    color: gray;
+}
+
+.news-1-body, .news-2-body, .news-3-body, .news-4-body {
+    padding: 12px;
+    width: 100%;
+}
+
+.img-news1, .img-news2, .img-news3, .img-news4 {
+    width: 100%;
+}
+
+.teams-section {
+    background-color: #222222;
+    color: white;
+    margin-top: 100px;
+}
+
+.teams-title {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    height: 40px;
+    align-items: center;
+}
+
+.team-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    font-size: 10px;
+    height: 370px;
+}
+
+.team-cards li {
+    list-style-type: none;
+}
+
+.img-teams {
+    height: 33px;
+    width: 44px;
+    margin: 13px;
+    cursor: pointer;
+}
+
+.team-cards h3 {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #013369;
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.footer-content{
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo{
+    display: block;
+    margin-top:10px;
+    width: 40px;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 30px;
+    justify-content: space-between;
+    font-size: 11px;
+    text-decoration: none;
+    width: 120px;
+    height: 100px;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    margin-top: 30px;
+}
